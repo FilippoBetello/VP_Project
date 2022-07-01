@@ -2,7 +2,7 @@
 Project for the course Vision and Perception 2022 edition, Sapienza University of Rome.<br>
 
 ## 📜Short Description
-The goal of my project is to create realistic celebrity images using GANs. I used three GANs [DC Gan](https://arxiv.org/pdf/1511.06434.pdf), [Least Square GAN](https://arxiv.org/pdf/1611.04076.pdf) and [Relativistic GAN](https://arxiv.org/pdf/1807.00734.pdf). In order to understand their behavior under different condition, I performed training for 15 epochs and fixing batch size to 128. <br>
+The goal of my project is to create realistic celebrity images using GANs. I used three GANs [DC Gan](https://arxiv.org/pdf/1511.06434.pdf), [Least Square GAN](https://arxiv.org/pdf/1611.04076.pdf) and [Relativistic GAN](https://arxiv.org/pdf/1807.00734.pdf). In order to understand their behavior under different condition, I performed training for 15 epochs and fixing the batch size to 128. <br>
 In addition to that, I used three different optimizers [SGD](https://arxiv.org/pdf/1609.04747.pdf), [Adam](https://arxiv.org/pdf/1412.6980.pdf) and [AdaBound](https://arxiv.org/abs/1902.09843) with three different values for learning rate (0.01, 0.004, 0.0003).
 
 ### Dataset
@@ -40,6 +40,10 @@ Using the best result for each model, I perform more training for 30 epochs usin
 <p align="center">
 <img src="src/comparison_DC.png" alt="drawing" width="800"/>
 </p>
+
+## 👨‍💻👩‍💻How run it
+In order to run the .ipynb file, the most important thing is to copy in your GoogleDrive the official folder of the project. It can be done accessing [here](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html), click to *Align&Cropped Images* and save this folder into your local Google Drive. Then everything is done, you just have to run and wait for the results.
+
 
 ## 📝Info:
 For any doubt or clarification send me an [email](mailto:betello.1835108@studenti.uniroma1.it?subject=[GitHub_LTW]).<br>
